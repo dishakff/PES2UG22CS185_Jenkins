@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ main.cpp -o PES2UG22CS185-1'
+                    sh 'g++ main1.cpp -o PES2UG22CS185-1'
                 }
             }
         }
